@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portofolio Aemiroyoo</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">AYO</div>
+    <div class="nav-links">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">Tentang</a>
+      <a href="#projects">Proyek</a>
+      <a href="#skills">Keahlian</a>
+      <a href="#contact">Kontak</a>
+    </div>
+    <div class="theme-toggle">
+      <i class="fas fa-moon"></i>
+    </div>
+    <div class="burger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
+
+  <header id="home">
+    <div class="header-content">
+      <h1 data-aos="fade-up">Aemiroyoo</h1>
+      <div class="typing-container" data-aos="fade-up" data-aos-delay="300">
+        <span class="static-text">Saya seorang </span>
+        <span class="dynamic-text"></span>
+      </div>
+      <div class="cta-buttons" data-aos="fade-up" data-aos-delay="600">
+        <a href="#projects" class="btn primary-btn">Lihat Karya</a>
+        <a href="#contact" class="btn secondary-btn">Hubungi Saya</a>
+      </div>
+      <div class="social-icons" data-aos="fade-up" data-aos-delay="900">
+        <a href="https://github.com/Aemiroyoo" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+    <div class="scroll-down">
+      <a href="#about">
+        <div class="mouse">
+          <div class="wheel"></div>
+        </div>
+      </a>
+    </div>
+  </header>
+
+  <section id="about" data-aos="fade-up">
+    <div class="container">
+      <h2 class="section-title">Tentang Saya</h2>
+      <div class="about-content">
+        <div class="about-img">
+          <div class="img-container">
+            <img src="/api/placeholder/400/400" alt="Aemiroyoo" />
+          </div>
+        </div>
+        <div class="about-text">
+          <h3>Flutter & Web Developer</h3>
+          <p>Saya pengembang web dan mobile dengan pengalaman membangun berbagai aplikasi menggunakan Flutter, Firebase, dan HTML/CSS. Saya senang belajar dan menciptakan solusi digital yang inovatif.</p>
+          <p>Dengan fokus pada pengalaman pengguna dan performa, saya berusaha membuat aplikasi yang tidak hanya berfungsi dengan baik tetapi juga menyenangkan untuk digunakan.</p>
+          <div class="personal-info">
+            <div class="info-item">
+              <span class="info-title">Nama:</span>
+              <span class="info-value">Aemiroyoo</span>
+            </div>
+            <div class="info-item">
+              <span class="info-title">Email:</span>
+              <span class="info-value">sutiyoyulianto2000@gmail.com</span>
+            </div>
+            <div class="info-item">
+              <span class="info-title">Lokasi:</span>
+              <span class="info-value">Indonesia</span>
+            </div>
+            <div class="info-item">
+              <span class="info-title">Status:</span>
+              <span class="info-value">Tersedia untuk proyek baru</span>
+            </div>
+          </div>
+          <a href="#" class="btn primary-btn download-cv">
+            <i class="fas fa-download"></i> Download CV
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="dark-section">
+    <div class="container" data-aos="fade-up">
+      <h2 class="section-title">Proyek Unggulan</h2>
+      <div class="projects-filter">
+        <button class="filter-btn active" data-filter="all">Semua</button>
+        <button class="filter-btn" data-filter="mobile">Mobile</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="firebase">Firebase</button>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card" data-category="mobile firebase" data-aos="zoom-in">
+          <div class="project-img">
+            <img src="/api/placeholder/600/400" alt="Aplikasi Absensi" />
+            <div class="project-overlay">
+              <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+              <a href="https://github.com/Aemiroyoo" class="project-link"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Aplikasi Absensi</h3>
+            <p>Flutter + Firebase + Lokasi</p>
+            <div class="project-tech">
+              <span>Flutter</span>
+              <span>Firebase</span>
+              <span>Maps API</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card" data-category="mobile firebase" data-aos="zoom-in" data-aos-delay="200">
+          <div class="project-img">
+            <img src="/api/placeholder/600/400" alt="CRUD Firebase" />
+            <div class="project-overlay">
+              <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+              <a href="https://github.com/Aemiroyoo" class="project-link"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>CRUD Firebase</h3>
+            <p>Aplikasi CRUD Flutter sederhana</p>
+            <div class="project-tech">
+              <span>Flutter</span>
+              <span>Firebase</span>
+              <span>Firestore</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card" data-category="web" data-aos="zoom-in" data-aos-delay="400">
+          <div class="project-img">
+            <img src="/api/placeholder/600/400" alt="Portofolio Website" />
+            <div class="project-overlay">
+              <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+              <a href="https://github.com/Aemiroyoo" class="project-link"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Portofolio Website</h3>
+            <p>Website portofolio personal</p>
+            <div class="project-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="more-projects">
+        <a href="https://github.com/Aemiroyoo" class="btn primary-btn">Lihat Lebih Banyak di GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container" data-aos="fade-up">
+      <h2 class="section-title">Keahlian</h2>
+      <div class="skills-content">
+        <div class="skills-tabs">
+          <button class="tab-btn active" data-tab="tech">Teknologi</button>
+          <button class="tab-btn" data-tab="soft">Soft Skills</button>
+        </div>
+        <div class="tab-content active" id="tech-content">
+          <div class="skills-grid">
+            <div class="skill-card" data-aos="zoom-in">
+              <div class="skill-icon">
+                <i class="fab fa-flutter"></i>
+              </div>
+              <div class="skill-info">
+                <h3>Flutter</h3>
+                <div class="progress-bar">
+                  <div class="progress" style="width: 90%"></div>
+                </div>
+                <span>90%</span>
+              </div>
+            </div>
+            <div class="skill-card" data-aos="zoom-in" data-aos-delay="100">
+              <div class="skill-icon">
+                <i class="fas fa-fire"></i>
+              </div>
+              <div class="skill-info">
+                <h3>Firebase</h3>
+                <div class="progress-bar">
+                  <div class="progress" style="width: 85%"></div>
+                </div>
+                <span>85%</span>
+              </div>
+            </div>
+            <div class="skill-card" data-aos="zoom-in" data-aos-delay="200">
+              <div class="skill-icon">
+                <i class="fab fa-html5"></i>
+              </div>
+              <div class="skill-info">
+                <h3>HTML</h3>
+                <div class="progress-bar">
+                  <div class="progress" style="width: 95%"></div>
+                </div>
+                <span>95%</span>
+              </div>
+            </div>
+            <div class="skill-card" data-aos="zoom-in" data-aos-delay="300">
+              <div class="skill-icon">
+                <i class="fab fa-css3-alt"></i>
+              </div>
+              <div class="skill-info">
+                <h3>CSS</h3>
+                <div class="progress-bar">
+                  <div class="progress" style="width: 90%"></div>
+                </div>
+                <span>90%</span>
+              </div>
+            </div>
+            <div class="skill-card" data-aos="zoom-in" data-aos-delay="400">
+              <div class="skill-icon">
+                <i class="fab fa-js"></i>
+              </div>
+              <div class="skill-info">
+                <h3>JavaScript</h3>
+                <div class="progress-bar">
+                  <div class="progress" style="width: 80%"></div>
+                </div>
+                <span>80%</span>
+              </div>
+            </div>
+            <div class="skill-card" data-aos="zoom-in" data-aos-delay="500">
+              <div class="skill-icon">
+                <i class="fab fa-git-alt"></i>
+              </div>
+              <div class="skill-info">
+                <h3>Git</h3>
+                <div class="progress-bar">
+                  <div class="progress" style="width: 85%"></div>
+                </div>
+                <span>85%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-content" id="soft-content">
+          <div class="skills-grid">
+            <div class="skill-card">
+              <div class="skill-icon">
+                <i class="fas fa-users"></i>
+              </div>
+              <div class="skill-info">
+                <h3>Team Work</h3>
+                <div class="progress-bar">
+                  <div class="progress" style="width: 90%"></div>
+                </div>
+                <span>90%</span>
+              </div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon">
+                <i class="fas fa-tasks"></i>
+              </div>
+              <div class="skill-info">
+                <h3>Project Management</h3>
+                <div class="progress-bar">
+                  <div class="progress" style="width: 85%"></div>
+                </div>
+                <span>85%</span>
+              </div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon">
+                <i class="fas fa-lightbulb"></i>
+              </div>
+              <div class="skill-info">
+                <h3>Problem Solving</h3>
+                <div class="progress-bar">
+                  <div class="progress" style="width: 95%"></div>
+                </div>
+                <span>95%</span>
+              </div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon">
+                <i class="fas fa-comments"></i>
+              </div>
+              <div class="skill-info">
+                <h3>Communication</h3>
+                <div class="progress-bar">
+                  <div class="progress" style="width: 90%"></div>
+                </div>
+                <span>90%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="dark-section">
+    <div class="container" data-aos="fade-up">
+      <h2 class="section-title">Kontak</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-item" data-aos="fade-right">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contact-text">
+              <h3>Email</h3>
+              <p>
+                <a href="mailto:sutiyoyulianto2000@gmail.com?subject=Halo%20Sutiyo">
+                    sutiyoyulianto2000@gmail.com
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="contact-item" data-aos="fade-right" data-aos-delay="200">
+            <div class="contact-icon">
+              <i class="fab fa-github"></i>
+            </div>
+            <div class="contact-text">
+              <h3>GitHub</h3>
+              <p><a href="https://github.com/Aemiroyoo" target="_blank">Aemiroyoo</a></p>
+            </div>
+          </div>
+          <div class="contact-item" data-aos="fade-right" data-aos-delay="400">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="contact-text">
+              <h3>Lokasi</h3>
+              <p><a href="https://www.google.com/maps/place/Jakarta+Pusat" target="_blank">
+                Jakarta Pusat, DKI Jakarta
+              </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form" data-aos="fade-left">
+          <form id="contactForm">
+            <div class="form-group">
+              <input type="text" id="name" placeholder="Nama Anda" required>
+              <span class="focus-border"></span>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" placeholder="Email Anda" required>
+              <span class="focus-border"></span>
+            </div>
+            <div class="form-group">
+              <input type="text" id="subject" placeholder="Subjek" required>
+              <span class="focus-border"></span>
+            </div>
+            <div class="form-group">
+              <textarea id="message" placeholder="Pesan Anda" required></textarea>
+              <span class="focus-border"></span>
+            </div>
+            <button type="submit" class="btn primary-btn">
+              <i class="fas fa-paper-plane"></i> Kirim Pesan
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">
+        <h3>Aemiroyoo</h3>
+        <p>Flutter & Web Developer</p>
+      </div>
+      <div class="footer-social">
+        <a href="https://github.com/Aemiroyoo" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+      <div class="footer-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang</a>
+        <a href="#projects">Proyek</a>
+        <a href="#skills">Keahlian</a>
+        <a href="#contact">Kontak</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Aemiroyoo. All rights reserved.</p>
+      <p>Dibangun dengan <i class="fas fa-heart"></i> dan kode</p>
+    </div>
+  </footer>
+
+  <div class="back-to-top">
+    <i class="fas fa-chevron-up"></i>
+  </div>
+
+  <script>
+    // Initialize AOS
+    AOS.init({
+      duration: 1000,
+      once: true,
+      mirror: false,
+    });
+
+    // Typing effect
+    const texts = ["Flutter Developer", "Web Developer", "Firebase Expert"];
+    let index = 0;
+    let charIndex = 0;
+    let isDeleting = false;
+    let typingDelay = 200;
+    const dynamicText = document.querySelector('.dynamic-text');
+
+    function typeEffect() {
+      const currentText = texts[index];
+      
+      if (isDeleting) {
+        dynamicText.textContent = currentText.substring(0, charIndex - 1);
+        charIndex--;
+      } else {
+        dynamicText.textContent = currentText.substring(0, charIndex + 1);
+        charIndex++;
+      }
+
+      if (!isDeleting && charIndex === currentText.length) {
+        isDeleting = true;
+        typingDelay = 1000; // Delay before start deleting
+      } else if (isDeleting && charIndex === 0) {
+        isDeleting = false;
+        index = (index + 1) % texts.length;
+        typingDelay = 500; // Delay before start typing new text
+      }
+
+      setTimeout(typeEffect, isDeleting ? 100 : typingDelay);
+    }
+
+    // Start typing effect after a delay
+    setTimeout(typeEffect, 1000);
+
+    // Navbar scroll
+    window.addEventListener('scroll', function() {
+      const navbar = document.querySelector('.navbar');
+      if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+
+    // Mobile menu toggle
+    const burger = document.querySelector('.burger');
+    const navLinks = document.querySelector('.nav-links');
+    
+    burger.addEventListener('click', function() {
+      navLinks.classList.toggle('nav-active');
+      burger.classList.toggle('burger-active');
+    });
+
+    // Smooth scrolling
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        
+        // Close mobile menu if open
+        if (navLinks.classList.contains('nav-active')) {
+          navLinks.classList.remove('nav-active');
+          burger.classList.remove('burger-active');
+        }
+
+        // Scroll to target
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+
+    // Back to top button
+    const backToTop = document.querySelector('.back-to-top');
+    
+    window.addEventListener('scroll', function() {
+      if (window.scrollY > 300) {
+        backToTop.classList.add('show');
+      } else {
+        backToTop.classList.remove('show');
+      }
+    });
+
+    backToTop.addEventListener('click', function() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+
+    // Dark mode toggle
+    const themeToggle = document.querySelector('.theme-toggle');
+    
+    themeToggle.addEventListener('click', function() {
+      document.body.classList.toggle('dark-mode');
+      const icon = themeToggle.querySelector('i');
+      
+      if (document.body.classList.contains('dark-mode')) {
+        icon.classList.remove('fa-moon');
+        icon.classList.add('fa-sun');
+      } else {
+        icon.classList.remove('fa-sun');
+        icon.classList.add('fa-moon');
+      }
+    });
+
+    // Project filters
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const projectCards = document.querySelectorAll('.project-card');
+    
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', function() {
+        // Remove active class from all buttons
+        filterBtns.forEach(btn => btn.classList.remove('active'));
+        
+        // Add active class to clicked button
+        this.classList.add('active');
+        
+        // Filter projects
+        const filter = this.getAttribute('data-filter');
+        
+        projectCards.forEach(card => {
+          const categories = card.getAttribute('data-category');
+          
+          if (filter === 'all' || categories.includes(filter)) {
+            card.style.display = 'block';
+            setTimeout(() => {
+              card.classList.add('show');
+            }, 50);
+          } else {
+            card.classList.remove('show');
+            setTimeout(() => {
+              card.style.display = 'none';
+            }, 300);
+          }
+        });
+      });
+    });
+
+    // Skills tabs
+    const tabBtns = document.querySelectorAll('.tab-btn');
+    const tabContents = document.querySelectorAll('.tab-content');
+    
+    tabBtns.forEach(btn => {
+      btn.addEventListener('click', function() {
+        // Remove active class from all buttons and contents
+        tabBtns.forEach(btn => btn.classList.remove('active'));
+        tabContents.forEach(content => content.classList.remove('active'));
+        
+        // Add active class to clicked button
+        this.classList.add('active');
+        
+        // Show corresponding content
+        const contentId = `${this.getAttribute('data-tab')}-content`;
+        document.getElementById(contentId).classList.add('active');
+      });
+    });
+
+    // Form submission
+    const contactForm = document.getElementById('contactForm');
+    
+    contactForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      // Normally would send form data to server
+      alert('Terima kasih! Pesan Anda telah dikirim.');
+      contactForm.reset();
+    });
+
+    // Active nav link on scroll
+    const sections = document.querySelectorAll('section, header');
+    const navLinksItem = document.querySelectorAll('.nav-links a');
+    
+    window.addEventListener('scroll', function() {
+      let current = '';
+      
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop - 100;
+        const sectionHeight = section.clientHeight;
+        
+        if (pageYOffset >= sectionTop) {
+          current = section.getAttribute('id') || 'home';
+        }
+      });
+      
+      navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === `#${current}`) {
+          link.classList.add('active');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
