@@ -6,6 +6,8 @@
   --primary-dark: #002171;
   --secondary-color: #ff6f00;
   --text-color: #333;
+  --text-form: #ffffff;
+  --text-color1: #1c75ff;
   --text-light: #666;
   --bg-color: #f8f9fa;
   --bg-dark: #121212;
@@ -38,6 +40,7 @@ body {
 /* Dark Mode */
 body.dark-mode {
   --text-color: var(--dark-text);
+  --text-form: var(--dark-text);
   --text-light: #aaa;
   --bg-color: var(--bg-dark);
   --card-bg: var(--card-bg-dark);
@@ -171,7 +174,7 @@ section {
 .logo {
   font-size: 1.8rem;
   font-weight: 700;
-  color: var(--primary-color);
+  color: var(--sub-primary-color);
 }
 
 .nav-links {
@@ -180,7 +183,7 @@ section {
 }
 
 .nav-links a {
-  color: var(--text-color);
+  color: var(--text-color1);
   font-weight: 500;
   position: relative;
 }
@@ -202,7 +205,7 @@ section {
 }
 
 .nav-links a.active {
-  color: var(--primary-color);
+  color: var(--sub-primary-color);
 }
 
 .burger {
@@ -342,7 +345,8 @@ header h1 {
 /* ===== ABOUT SECTION ===== */
 .about-content {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  /* grid-template-columns: 1fr 2fr; */
+  grid-template-columns: 0.9fr 2fr;
   gap: 50px;
   align-items: center;
 }
@@ -692,7 +696,7 @@ header h1 {
   border: none;
   border-bottom: 1px solid #ddd;
   background-color: transparent;
-  color: var(--text-color);
+  color: var(--text-form);
   font-size: 1rem;
   outline: none;
   resize: none;
@@ -700,7 +704,7 @@ header h1 {
 
 .dark-mode .form-group input,
 .dark-mode .form-group textarea {
-  border-bottom-color: #444;
+  border-bottom-color: #b7b7b7;
 }
 
 .form-group input:focus,
